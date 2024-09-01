@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Scottish Power</string>
+
+    <string name="detail_user">User: %s</string>
+    <string name="detail_name">Name: %s</string>
+    <string name="detail_company">Company: %s</string>
+
+    <string name="unknown_error">Unknown error</string>
+    <string name="list_sort_by">Sort by:</string>
+
+    <string name="sort_type_title">Title</string>
+    <string name="sort_type_username">Username</string>
+</resources>
