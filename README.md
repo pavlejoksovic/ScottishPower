@@ -13,10 +13,9 @@ I also implemented an album details screen, which shows the author's information
 For this task, I went with an MVVM architecture. Given the relatively simple nature of the app, most architectures would have done, therefore I chose MVVM because:
 
 1) It's a modern architecture advocated by Google
-2) I've not previously implemented MVVM beyond basic tutorials and it was a useful learning experience
-3) I wanted to mirror Scottish Power's architecture to demonstrate my ability to adapt to a less familiar pattern
+2) I wanted to mirror Scottish Power's architecture
 
-I amalgamted several tutorial MVVM repositories to develop this architecture, and was mostly happy with the solution, although it is possible it defies some conventions. One issue was defining the top-level composable for each screen as an extension of NavGraphBuilder: while it makes the AppNavigation class very clean and scaleable, it does not lend itself to using the Compose preview feature and could use some further separation of functionality.
+One issue was defining the top-level composable for each screen as an extension of NavGraphBuilder: while it makes the AppNavigation class very clean and scaleable, it does not lend itself to using the Compose preview feature and could use some further separation of functionality.
 
 I also attempted to follow clean architecture principals which I believe have been implemented in a relatively conventional way.
 
